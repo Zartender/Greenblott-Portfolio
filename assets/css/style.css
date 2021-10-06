@@ -3,12 +3,23 @@
     --secondary: rgb(0, 0, 0);
     --tertiary: rgb(223, 164, 164);
     --dark: rgb(114, 69, 59);
-    --light: rgba(238, 238, 247, 1);
+    --light: rgb(255, 255, 255);
   }
 
 body{
     font-family: Helvetica, sans-serif;
-    color: var(--secondary);
+    background-image: url(/assets/images/Moher.jpg);
+    
+  }
+
+img {
+    border-radius: 8px;
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
 header {
@@ -23,6 +34,7 @@ header {
   }
 
 nav {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 40px 6% 40px 6%;
     display: flex;
     flex-direction: row;
@@ -56,5 +68,43 @@ a:visited {
 
 a:hover {
     text-shadow: 25px var(--secondary);
-
 }
+
+/* .hero img {
+        
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+} */
+
+/* .hero-banner {
+    background: var(--light);
+    background-image: url("/assets/images/Moher.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 80vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  } */
+
+h2 {
+    font-size: larger;
+}
+
+/* img {
+    border-radius: 8px;
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
