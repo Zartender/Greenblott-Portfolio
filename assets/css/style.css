@@ -8,7 +8,7 @@
 
 body{
     font-family: Helvetica, sans-serif;
-    background-image: url(/assets/images/Moher.jpg);
+    
     
   }
 
@@ -57,7 +57,9 @@ a:hover {
 
 li {
       display: inline;
-      padding: 5px 90px;
+      padding: 5px 45px;
+      align-items: center;
+      align-content: flex-end;
   }
     
 a:link, 
