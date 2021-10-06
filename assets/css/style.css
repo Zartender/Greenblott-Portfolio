@@ -97,3 +97,8 @@ h2 {
     margin-right: auto;
     width: 50%;
   } */
+
+  address {
+    font-family: inherit;
+    font-size: small;
+  }
