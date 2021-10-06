@@ -10,103 +10,63 @@
     --light: rgb(255, 255, 255);
   }
 
-body{
-    font-family: Helvetica, sans-serif;
-    
-    
+body {
+    font-family: Helvetica, sans-serif; 
   }
 
-.logo {
-
+h1 {
+    color: var(--tertiary);
+    font-size: 3em;
 }
 
-img {
-    border-radius: 8px;
-    max-width: 25%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--secondary);
   }
-
-header {
-    padding: 40px 6% 40px 6%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: var(--light);
-    color: var(--primary);
-  }
-
-
-
-/* a:link, a:visited {
-    text-decoration: none;
-    color: var(--secondary);
-}
-
-a:hover {
-    text-shadow: 25px var(--secondary);
-
-} */
-
 
 li {
-      display: inline;
-      padding: 10px 30px;
-      margin: auto;
-      align-items: center;
-      align-content: flex-start;
+    float: left;
   }
-    
-a:link, 
-a:visited {
+
+li a {
+    display: block;
+    color: var(--light);
+    text-align: center;
+    padding: 25px 25px;
     text-decoration: none;
-    color: var(--secondary);
-    background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: bottom;
-  transition: all 0.25s ease-in;
-  font-size: 1.4rem
-}
+  }
+  
+li a:hover {
+    background-color: rgb(112, 102, 102);
+  }
 
-a:hover {
-    text-shadow: 25px var(--secondary);
-}
-
-/* .hero img {
-        
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-
-} */
-
-
-
-h2 {
-    font-size: larger;
-    align-items: center;
-    align-content: flex-start;
-    
-}
-
-/* img {
+#contact,
+#about,
+#resume,
+#work   {
     border-radius: 8px;
-    max-width: 25%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  } */
-
-  address {
-    font-family: inherit;
-    font-size: small;
   }
+
+  address p a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    
+
+  }
+/* p a:visited {
+    text-decoration: none;
+} */
+  /* Interesting */
+
+  
+ 
