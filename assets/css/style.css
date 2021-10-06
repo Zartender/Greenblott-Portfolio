@@ -1,40 +1,60 @@
 :root {
-    --primary: rgb(73, 73, 73);
-    --secondary: rgb(32, 32, 32);
-    --tertiary: rgb(255, 255, 255);
-    --dark: rgba(28, 29, 33, 1);
+    --primary: rgb(248, 0, 0);
+    --secondary: rgb(0, 0, 0);
+    --tertiary: rgb(223, 164, 164);
+    --dark: rgb(114, 69, 59);
     --light: rgba(238, 238, 247, 1);
   }
 
-  body{
+body{
     font-family: Helvetica, sans-serif;
+    color: var(--secondary);
+  }
+
+header {
+    padding: 40px 6% 40px 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--light);
     color: var(--primary);
   }
 
-  header {
+nav {
     padding: 40px 6% 40px 6%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--tertiary);
-  }
+    background-color: var(--light);
+    }
 
-  nav {
-    padding: 40px 6% 40px 6%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: var(--tertiary);
-    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-  }
+/* a:link, a:visited {
+    text-decoration: none;
+    color: var(--secondary);
+}
 
-  li {
+a:hover {
+    text-shadow: 25px var(--secondary);
+
+} */
+
+
+li {
       display: inline;
-      padding: 5px;
-     
-
+      padding: 5px 90px;
   }
+    
+a:link, 
+a:visited {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+a:hover {
+    text-shadow: 25px var(--secondary);
+
+}
