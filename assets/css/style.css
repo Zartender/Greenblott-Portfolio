@@ -1,6 +1,6 @@
-* {
-    box-sizing: border-box;
-}
+/* * {
+  
+} */
 
 :root {
     --primary: rgb(248, 0, 0);
@@ -8,21 +8,49 @@
     --tertiary: rgb(223, 164, 164);
     --dark: rgb(114, 69, 59);
     --light: rgb(255, 255, 255);
+    
+    
   }
+
+  .bg-light {
+    background-color: var(--dark) !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--light);
+  }
+
+ 
+
+  .navbar-brand {
+    color: var(--tertiary) !important;
+  }
+  
+.display-4, 
+.btn  {
+  font-family: 'Zen Antique', serif;
+}
 
 body {
-    font-family: Helvetica, sans-serif; 
+    font-family: Helvetica, sans-serif;
+    background-image: url(../images/istockphoto-1064172872-612x612.jpg); 
   }
 
-
-
-
   
-
-/* p a:visited {
-    text-decoration: none;
-} */
-  /* Interesting */
-
+.jumbotron {
+  background-color: var(--tertiary);
+  color: var(--dark);
+  margin-top: 2rem;
   
- 
+}
+
+  .btn-primary {
+    background-color: var(--dark);
+    border-color: var(--dark);
+  }
+  .btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+
+  }
+
