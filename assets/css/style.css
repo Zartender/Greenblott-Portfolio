@@ -3,11 +3,22 @@
 } */
 
 :root {
-    --primary: rgb(248, 0, 0);
-    --secondary: rgb(0, 0, 0);
-    --tertiary: rgb(223, 164, 164);
-    --dark: rgb(114, 69, 59);
+    --primary: rgb(26, 90, 31);
+    --secondary: rgb(51, 97, 50);
+    --tertiary: rgb(68, 114, 56);
+    --dark: rgb(40, 54, 28);
     --light: rgb(255, 255, 255);
+    --r-localnav-height: 52px;
+    --r-localnav-stacked-height: 66px;
+    --r-localnav-gn-height: var(--r-globalnav-height, 44px);
+    --r-localnav-viewport-large-min-width: 1024px;
+    --r-localnav-viewport-large-query: (min-width: 1024px);
+    --r-localnav-viewport-medium-min-width: 834px;
+    --r-localnav-viewport-medium-max-width: 1023px;
+    --r-localnav-viewport-medium-query: (min-width: 834px);
+    --r-localnav-viewport-small-min-width: 320px;
+    --r-localnav-viewport-small-max-width: 833px;
+    --r-localnav-viewport-small-query: (min-width: 320px);
     
     
   }
@@ -20,7 +31,9 @@
     color: var(--light);
   }
 
- 
+ #portfolioPic {
+   border-radius: 25rem;
+ }
 
   .navbar-brand {
     color: var(--tertiary) !important;
@@ -41,16 +54,43 @@ body {
   background-color: var(--tertiary);
   color: var(--dark);
   margin-top: 2rem;
+  border-radius: .75rem;
   
+}
+
+.jumbotron:hover {
+  -moz-box-shadow: 0 0 1.5rem rgb(41, 41, 41);
+  -webkit-box-shadow: 0 0 1.5rem rgb(73, 71, 71);
+  box-shadow: 0 0 1.5rem rgb(22, 18, 18);
+
 }
 
   .btn-primary {
     background-color: var(--dark);
     border-color: var(--dark);
+    
   }
   .btn-primary:hover {
     background-color: var(--primary);
     border-color: var(--primary);
-
+    
   }
 
+/* progress */
+
+/* end portfolio project images */
+
+
+.img-fluid {
+ border-radius: 1rem;
+ height: auto;
+ display: table;
+ position: inherit;
+ -moz-box-shadow: 0 0 1.5rem rgb(41, 41, 41);
+  -webkit-box-shadow: 0 0 1.5rem rgb(73, 71, 71);
+  box-shadow: 0 0 1.5rem rgb(22, 18, 18);
+border: var(--secondary) 5rem;
+float: left;
+  margin: 5px;
+ 
+}
