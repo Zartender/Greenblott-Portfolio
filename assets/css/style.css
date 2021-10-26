@@ -35,6 +35,15 @@
    border-radius: 25rem;
  }
 
+ #portfolioPic:hover {
+  border-radius: 25rem;
+  -moz-box-shadow: 0 0 .5rem rgb(41, 41, 41);
+  -webkit-box-shadow: 0 0 .5rem rgb(73, 71, 71);
+  box-shadow: 0 0 .5rem rgb(22, 18, 18);
+ 
+}
+ 
+
   .navbar-brand {
     color: var(--tertiary) !important;
   }
