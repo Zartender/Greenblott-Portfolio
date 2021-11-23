@@ -77,8 +77,14 @@ body {
   .btn-primary {
     background-color: var(--dark);
     border-color: var(--dark);
-    
+
   }
+
+  #resume {
+    margin-right: 1rem;
+  }
+    
+
   .btn-primary:hover {
     background-color: var(--primary);
     border-color: var(--primary);
